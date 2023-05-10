@@ -1,0 +1,6 @@
+<br>
+<ul>
+    <li *ngFor="let food of foods; let i = index">
+        {{food}} <button (click)="deleteFood(i)">Delete</button>
+    </li>
+</ul>
